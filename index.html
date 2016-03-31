@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>Portfolio site</title>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -8,6 +9,9 @@
   <link href="bootstrap/css/style.css" rel='stylesheet' type="text/css">
     <script type="text/javascript"
   src="bower_components/webcomponentsjs/webcomponents.min.js">
+</script>
+ <script type="text/javascript"
+  src="javascript/picturefill.min">
 </script>
 <link rel="import" href="elements/basic-udacity.html">
 </head>
@@ -69,7 +73,7 @@
       <!--
 nav
     -->
-
+    <header id="top">
     <ul class="nav navbar-nav navbar-right">
       <li class="active"><a href="#">Home</a></li>
         <li class="active"><a href="#">Blog</a></li>
@@ -79,20 +83,21 @@ nav
   
   
       <div class="row">
-      <div class="col-sm-6"><img  src="images/Home.jpg"></div>
+      <div class="col-sm-6"><img  class="img-responsive"  src="images/Home.jpg" alt="icon image of a  house"></div>
       <div class="col-sm-6">
         <h1 class="text-uppercase"><basic-udacity></basic-udacity></h1>
         <h3 class="text-uppercase">Front-end Ninja</h3>
+        <p>I enjoy Tennis and Badmington</p>
       </div>
       </div> <!-- row -->
 
 
-
+    </header>
 
   <section id="mainsection">
     <div class="row">
     <div class="col-sm-12">
-      <img class="img-responsive" src="http://www.chesapeakelandscape.org/wp-content/uploads/2015/09/18747449946_b162e6bc21_k-1140x534.jpg">
+    <img class="img-responsive"  src="images/gallery.jpg" srcset="images/gallery-1280.jpg 1280w, images/gallery-640.jpg 640w, images/gallery-320.jpg 320w, images/gallery-160.jpg 160w  " alt="image of a ladybird sitting on a leaf">
     </div>
   </div> <!-- row -->
 
@@ -114,12 +119,12 @@ nav
 
   <div class="row">
       <div class="col-sm-6">
-        <img  data-toggle="modal" data-target="#myModal1" class="img-responsive" src="http://placehold.it/555x300">
+        <img  data-toggle="modal" data-target="#myModal1" class="img-responsive" src="http://placehold.it/555x300" alt="image displaying interactive CV">
         <h3>PROJECT Interactive Resume</h3>
         <p><a href="http://github.com" class="btn btn-success">Link to project</a></p>
       </div>
       <div class="col-sm-6">
-        <img  data-toggle="modal" data-target="#myModal2" class="img-responsive" class="img-responsive" src="http://placehold.it/555x300">
+        <img  data-toggle="modal" data-target="#myModal2" class="img-responsive" class="img-responsive" src="http://placehold.it/555x300" alt="image of the arcade game" >
         <h3>PROJECT Classic Arcade Game Clone</h3>
         <p><a href="http://github.com" class="btn btn-primary">Link to project</a></p>
       </div>
@@ -128,12 +133,12 @@ nav
 
     <div class="row">
       <div class="col-sm-6">
-        <img  data-toggle="modal" data-target="#myModal1" class="img-responsive" src="http://placehold.it/555x300">
+        <img  data-toggle="modal" data-target="#myModal1" class="img-responsive" src="http://placehold.it/555x300" alt="image displaying the website Optimization project">
         <h3>PROJECT Website Optimization</h3>
         <p><a href="http://github.com" class="btn btn-primary">Link to project</a></p>
       </div>
       <div class="col-sm-6">
-        <img  data-toggle="modal" data-target="#myModal2" class="img-responsive" class="img-responsive" src="http://placehold.it/555x300">
+        <img  data-toggle="modal" data-target="#myModal2" class="img-responsive" class="img-responsive" src="http://placehold.it/555x300" alt="image displaying the project Neighboorhood Map">
         <h3>PROJECT Neighborhood Map</h3>
         <p><a href="http://github.com" class="btn btn-primary">Link to project</a></p>
       </div>
