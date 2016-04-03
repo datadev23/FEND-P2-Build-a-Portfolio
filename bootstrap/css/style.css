@@ -4,3 +4,27 @@ a {
 #mainsection {
     background-color: #ADD8E6;
 }
+
+
+@media screen and (max-width: 480px) {
+    h3 {
+        font-size:12px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    h3 {
+        font-size:14px;
+    }
+}
+
+@media screen and (max-width: 620) {
+
+	.btn-responsive:
+	{
+	padding: 2px 4px;
+	font-size:60%;
+}
+
+}
+
