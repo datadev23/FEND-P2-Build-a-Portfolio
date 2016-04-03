@@ -10,6 +10,12 @@ a {
     h3 {
         font-size:12px;
     }
+
+    h2 {
+    	font-size:14px;
+    }
+
+
 }
 
 @media screen and (max-width: 620px) {
@@ -18,13 +24,20 @@ a {
     }
 }
 
-@media screen and (max-width: 620) {
 
-	.btn-responsive:
-	{
-	padding: 2px 4px;
-	font-size:60%;
+
+
+#mainsection h3 {
+	text-align:center;
+}
+#mainsection h2 {
+	text-align:center;
 }
 
+#top {
+
+    padding-bottom:20px;
 }
+
+
 
