@@ -1,49 +1,55 @@
 a {
-    background-color: #33FF00;
-}
-#mainsection {
-    background-color: #ADD8E6;
+background-color: #33FF00;
 }
 
+#mainsection {
+background-color: #ADD8E6;
+}
 
 @media screen and (max-width: 480px) {
-    h3 {
-        font-size:12px;
-    }
+h3 {
+font-size: 12px;
+}
 
-    h2 {
-    	font-size:14px;
-    }
+h2 {
+font-size: 14px;
+}
 
-
+h1 {
+font-size: 16px;
+}
 }
 
 @media screen and (max-width: 620px) {
-    h3 {
-        font-size:14px;
-    }
+h3 {
+font-size: 14px;
 }
 
+h2 {
+font-size: 15px;
+}
 
-
+h1 {
+font-size: 17px;
+}
+}
 
 #mainsection h3 {
-	text-align:center;
+text-align: center;
 }
+
 #mainsection h2 {
-	text-align:center;
+text-align: center;
 }
 
 #top {
+padding-bottom: 20px;
+}
 
-    padding-bottom:20px;
+#top img {
+margin: 20px 20px 20px 0px;
 }
 
 #mainsection img {
-
 padding: 20px 20px 20px 20px;
-
 }
-
-
-
